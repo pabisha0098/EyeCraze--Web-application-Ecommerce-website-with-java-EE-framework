@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  background-image: linear-gradient(to right, pink, purple);
+
+}
+
+/* Login box styles */
+.login-box {
+  width: 350px;
+  margin: 100px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.login-box h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+
+/* Form input styles */
+.row {
+  margin-bottom: 20px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Login button styles */
+.login-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Forgot password and create account links styles */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Error message styles */
+.error-msg {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+/* Success message styles */
+.success-msg {
+  color: #28a745;
+  text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .login-box {
+    width: 80%;
+  }
+}

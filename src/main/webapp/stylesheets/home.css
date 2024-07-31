@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.welcome-container {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.welcome-container h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+.welcome-container span.username {
+	color: #007bff;
+}
+
+.welcome-container span.action {
+	font-weight: bold;
+}
+
+.home-button {
+	padding: 10px 20px;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #007bff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+	background-color: #0056b3;
+}
+
+.content {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-image: url('${pageContext.request.contextPath}/resources/product/fancyglass.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.welcome-heading {
+	font-size: 4rem;
+}
+
+.welcome-heading span {
+	font-size: 2.5rem;
+	color: #007bff;
+}
+
+.subheading {
+	font-size: 2rem;
+	color: #555;
+}
